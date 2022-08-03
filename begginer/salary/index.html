@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="../../css-for-exercises/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>employee's salary that he/she will receive at end of the month</h1>
+    <form action="/" class="form" method="POST">
+      <label for="employeeNumber">employee's number</label>
+      <input type="text" id="employeeNumber" name="employeeNumber">
+      <label for="workedHours">worked hours</label>
+      <input type="text" name="workedHours" id="workedHours">
+      <label for="receivePerHour">received per hour</label>
+      <input type="text" name="receivePerHour" id="receivePerHour">
+      <button type="submit">Submit</button>
+    </form>
+    <div class="result"></div>
+  </section>
+
+  <script src="assets/js/salary.js"></script>
+</body>
+
+</html>
