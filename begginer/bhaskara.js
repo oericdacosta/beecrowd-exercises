@@ -6,7 +6,6 @@ function main(){
     
     let bhaskara = calcBhaskara(num1, num2, num3);
     let roots = checkRoots(bhaskara);
-    //console.log(roots);
     if(Number.isNaN(roots) || num1 === 0){
         console.log("impossível calcular"); 
         return;
