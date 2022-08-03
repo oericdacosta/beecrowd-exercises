@@ -14,14 +14,6 @@ function main(){
     let rootsOfBhaskara =  calcRoot(num1, num2, bhaskara);
 
     console.log(rootsOfBhaskara);
-
-    /*
-
-    if(Number.isNaN(roots)) return;
-
-    let rootsOfBhaskara =  calcRoot(num1, num2, bhaskara);
-
-    (roots === 1) ? console.log(rootsOfBhaskara.x) : console.log(rootsOfBhaskara.x1, rootsOfBhaskara.x2);*/
 }
 
 
